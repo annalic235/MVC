@@ -1,0 +1,4 @@
+DirectoryIndex public/index.php
+RewriteEngine On
+RewriteCond % {REQUEST_FILENAME}
+RewriteRule ^(.*)$ /public/index.php?url=$1

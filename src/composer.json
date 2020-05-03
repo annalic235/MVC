@@ -1,0 +1,19 @@
+{
+    "name": "webdesign/mvc",
+    "description": "MVC sala",
+    "authors": [
+        {
+            "name": "Ana Clara",
+            "email": "annaclaralima24.ac@gmail.com"
+        }
+    ],
+    "require": {
+        "cocur/slugify": "^4.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Classes\\":"class/"
+        }
+    }
+
+}
